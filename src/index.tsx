@@ -38,7 +38,7 @@ createServer({
     
     // Tell Mirage to ignore unhandled requests to these domains
     this.passthrough()
-    this.passthrough("https://app.convertkit.com/**")
+    this.passthrough("https://dtmoney-react.netlify.app/**")
 
     this.namespace = 'api'
 
