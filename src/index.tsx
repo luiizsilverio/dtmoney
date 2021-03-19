@@ -5,6 +5,8 @@ import { App } from './App';
 
 // Cria uma API fake utilizando a biblioteca Mirage
 createServer({
+  environment: process.env.NODE_ENV,
+
   models: {     //define um ou mais modelos de dados (tabelas)
     transaction: Model,
   },
@@ -33,6 +35,11 @@ createServer({
   },
 
   routes() {    //define as rotas (get, post etc)
+    
+    // Tell Mirage to ignore unhandled requests to these domains
+    this.passthrough()
+    this.passthrough("https://app.convertkit.com/**")
+
     this.namespace = 'api'
 
     this.get('/transactions', () => { //rota GET
