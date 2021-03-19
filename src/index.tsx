@@ -36,8 +36,9 @@ createServer({
 
   routes() {    //define as rotas (get, post etc)
     
-    // Tell Mirage to ignore unhandled requests to these domains
-    this.passthrough()
+    // Tell Mirage to ignore unhandled requests to these domains    
+    this.passthrough()    
+    //this.passthrough("https://dtmoney-react.netlify.app")
     this.passthrough("https://dtmoney-react.netlify.app/**")
 
     this.namespace = 'api'
