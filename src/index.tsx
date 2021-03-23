@@ -5,13 +5,13 @@ import { App } from './App';
 
 // Cria uma API fake utilizando a biblioteca Mirage
 createServer({
-  environment: process.env.NODE_ENV,
+  //environment: process.env.NODE_ENV,
 
-  models: {     //define um ou mais modelos de dados (tabelas)
+  models: {     // define um ou mais modelos de dados (tabelas)
     transaction: Model,
   },
   
-  seeds(server) {   //carga inicial
+  seeds(server) {   // carga inicial
     server.db.loadData({
       transactions: [
         {
@@ -37,9 +37,9 @@ createServer({
   routes() {    //define as rotas (get, post etc)
     
     // Tell Mirage to ignore unhandled requests to these domains    
-    this.passthrough()    
+    //this.passthrough()    
+    //this.passthrough("https://dtmoney-chi.vercel.app/")
     //this.passthrough("https://dtmoney-react.netlify.app")
-    this.passthrough("https://dtmoney-react.netlify.app/**")
 
     this.namespace = 'api'
 
