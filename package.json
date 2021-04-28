@@ -1,5 +1,7 @@
 {
   "name": "dtmoney",
+  "author": "Luiz Oliveira <luiiz.silverio@gmail.com>",
+  "repository": "https://github.com/luiizsilverio/dtmoney",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
