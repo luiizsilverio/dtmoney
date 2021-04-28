@@ -1,10 +1,10 @@
 # dtmoney
 ## Conteúdo
-* [Sobre o Projeto](#-sobre-o-projeto)
-* [Tecnologias](#-tecnologias)
-* [Screenshots](#-screenshots)
-* [Licença](#-licenca)
-* [Contato](#-contato)
+* [Sobre o Projeto](#sobre-o-projeto)
+* [Tecnologias](#hammer_and_wrench-tecnologias)
+* [Screenshots](#camera_flash-screenshots)
+* [Licença](#balance_scale-licença)
+* [Contato](#email-contato)
 
 ## Sobre o projeto
 Fluxo de caixa, com entradas e saídas.<br />
@@ -22,9 +22,9 @@ Para acessar a aplicação, clique [aqui :link:](https://dtmoney-react.vercel.ap
 ![](https://github.com/luiizsilverio/dtmoney/blob/master/public/dtmoney1.png)
 ![](https://github.com/luiizsilverio/dtmoney/blob/master/public/dtmoney2.png)
 
-## ⚖️ Licença
+## :balance_scale: Licença
 Este projeto está licenciado sob a [licença MIT](LICENSE).
 
-## 📫 Contato
+## :email: Contato
 
-Luiz Oliveira - [**luiiz.silverio@gmail.com**](mailto:luiiz.silverio@gmail.com)
+E-mail: [**luiiz.silverio@gmail.com**](mailto:luiiz.silverio@gmail.com)
