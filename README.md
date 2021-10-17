@@ -1,4 +1,3 @@
-# dtmoney
 <table>
   <tr>
     <td><img src="https://github.com/luiizsilverio/dtmoney/blob/master/public/favicon.png" /></td>
