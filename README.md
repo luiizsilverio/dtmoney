@@ -1,4 +1,11 @@
 # dtmoney
+<table>
+  <tr>
+    <td><img src="https://github.com/luiizsilverio/dtmoney/blob/master/public/favicon.png" /></td>
+    <td><h1>DTMoney</h1></td>
+  </tr>
+</table>
+
 ## Conteúdo
 * [Sobre o Projeto](#sobre-o-projeto)
 * [Tecnologias](#hammer_and_wrench-tecnologias)
@@ -8,7 +15,7 @@
 
 ## Sobre o projeto
 Fluxo de caixa, com entradas e saídas.<br />
-Desenvolvido durante o Ignite React da __Rocketseat__.<br />
+Aplicativo desenvolvido em React, durante o curso Ignite da __Rocketseat__.<br />
 Para acessar a aplicação, clique [aqui :link:](https://dtmoney-react.vercel.app)
 
 ## :hammer_and_wrench: Tecnologias
