@@ -15,7 +15,7 @@
 ## Sobre o projeto
 Fluxo de caixa, com entradas e saídas.<br />
 Aplicativo desenvolvido em React, durante o curso Ignite da __Rocketseat__.<br />
-A Aplicação está disponível na [Vercel]((https://dtmoney-react.vercel.app)) e também na [Netlify](https://dtmoney-react.netlify.app).<br />
+A Aplicação está disponível na [Vercel](https://dtmoney-react.vercel.app) e também na [Netlify](https://dtmoney-react.netlify.app).<br />
 
 ## :hammer_and_wrench: Tecnologias
 * <ins>React</ins>
